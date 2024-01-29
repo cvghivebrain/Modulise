@@ -1,1 +1,2 @@
-Modulise.exe "bin\kosplus.exe" $1000 "GHZ Main.bin" "GHZ Main.kpm" -s
+Modulise.exe "bin\kosplus.exe" $1000 "GHZ Main.bin" "GHZ Main.kpm"
+pause
