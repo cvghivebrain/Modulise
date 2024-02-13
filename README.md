@@ -17,3 +17,10 @@ Add `-s` to use a short header as in the original Kosinski Moduled format.
 The output file with short header comprises the following parts:
 * Two bytes displaying the number of modules (minus 1) in the upper nybble, and the size of the final module in the lower 3 nybbles.
 * The modules themselves.
+
+Additional options are as follows:
+
+* `-noindex` - omit the offset index.
+* `-nolast` - omit the final module size.
+* `-aligneven` - ensure all modules are aligned to an even address.
+* `-actualcount` - first two bytes (or nybble in short header) shows the actual number of modules, not minus 1.
